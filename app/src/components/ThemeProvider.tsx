@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import { getMemory, setMemory } from "@/utils/memory.ts";
 import { themeEvent } from "@/events/theme.ts";
 
-const defaultTheme: Theme = "dark";
+const defaultTheme: Theme = "light";
 
 export type Theme = "dark" | "light" | "system";
 
